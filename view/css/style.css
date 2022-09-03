@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: max-content;
+    background-color: #E5E5E5 !important;
+}
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+textarea{
+    background-color: transparent;
+    resize: none !important;
+    border: transparent;
+    color: #0A3871;
+    font-size:25pt !important;
+}
+#container-entrada>textarea{
+    font-size:25pt !important;
+}
+#container-entrada>textarea:focus{
+    border-color: #0A3871;
+    box-shadow: 0 1px 1px rgba(56, 56, 101, 0.075)inset, 0 0 8px rgba(100, 104, 147, 0.6);
+    outline: 0 none;
+}
+#container-salida{
+    background-color: rgb(255, 255, 255);
+    border: #3b3b3b9a 0px solid;
+    border-radius:15px;
+    box-shadow: 0 1px 1px rgba(56, 56, 101, 0.075)inset, 0 0 8px rgba(100, 104, 147, 0.6);
+}
+#container-salida>div>textarea{
+    background-image: url(../img/Muñeco.png);
+    background-repeat: no-repeat;
+
+}
+#container-salida>div>textarea:focus{
+    outline: 0 none;
+}
